@@ -12,7 +12,9 @@ var scanner = new Html5QrcodeScanner('reader', {
         height: 250,
     },  // Sets dimensions of scanning box (set relative to reader element width)
     fps: 20, // Frames per second to attempt a scan
-});
+    rememberLastUsedCamera: true,  //no need to give permission once it is given
+
+},{ facingMode: "environment" });
 
 
 scanner.render(success, error);
