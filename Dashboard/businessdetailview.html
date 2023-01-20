@@ -14,13 +14,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    
 
 
-    
-    
 
-   
+
+
+
+
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -79,7 +79,7 @@
             <hr class="sidebar-divider">
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-th"></i>
@@ -129,7 +129,7 @@
             <hr class="sidebar-divider">
 
             <!-- Nav Item - Point Management -->
-            <li class="nav-item ">
+            <li class="nav-item  active">
                 <a class="nav-link collapsed" href="pointmanagement.html" data-toggle="collapse" data-target="#collapseManagement"
                     aria-expanded="true" aria-controls="collapseManagement">
                     <i class="fas fa-tasks"></i>
@@ -229,7 +229,7 @@
                             </div>
                         </li>
 
-                       
+
 
                         <div class="topbar-divider d-none d-sm-block"></div>
 
@@ -269,113 +269,70 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
-
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <!-- <h1 class="h3 mb-0 text-gray-800">A Hala</h1> -->
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm btn-dash-pointit"><i
-                                class="fas fa-download fa-sm "></i> Generate Card</a>
-                    </div>
-
-                    <!-- Content Row -->
-                    <section style="background-color: #f4f5f7;">
-                            <!-- <div class="container py-5 h-100"> -->
-                              <div class="row d-flex justify-content-center align-items-center h-100">
-                                <div class="col col-lg-8 col-md-10 col-sm-12 mb-4 mb-lg-0">
-                                  <div class="card mb-3" style="border-radius: .5rem;">
-                                    <div class="row g-0">
-                                      <div class="col-md-4 gradient-custom text-center text-white my-auto"
-                                        style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
-                                        
-                                        <button type="button" class="btn" data-toggle="modal" data-target="#pointitqrModal">
-        
-                                            <img src="images/pointit-qr.png" alt="pointitqr" class="img-fluid"  />
-                                        
-                                        </button>
-                                        
-                                        
-                                      </div>
-                                      <div class="col-md-8">
-                                        <div class="card-body p-4">
-                                          <h6>A Hala PVt. Ltd </h6>
-                                          <hr class="mt-0 mb-4">
-                                          <div class="row pt-1">
-                                            <div class="col-6 mb-3">
-                                              <h6>Email</h6>
-                                              <p class="text-muted">info@example.com</p>
-                                            </div>
-                                            <div class="col-6 mb-3">
-                                              <h6>Phone</h6>
-                                              <p class="text-muted">123 456 789</p>
-                                            </div>
-                                          </div>
-                                          <h6>Point Detail</h6>
-                                          <hr class="mt-0 mb-4">
-                                          <div class="row pt-1">
-                                            <div class="col-6 mb-3">
-                                              <h6>Available Point</h6>
-                                              <p class="text-muted">2000</p>
-                                            </div>
-                                            <div class="col-6 mb-3">
-                                              <h6>Recently Added Point</h6>
-                                              <p class="text-muted">100</p>
-                                            </div>
-                                          </div>
-                                          <div class="d-flex justify-content-start">
-                                            <h6 class="w-100">Company Social Media</h6>
-                                            <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-                                            <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-                                            <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            <!-- </div> -->
-                          </section>
-
-
-
-
-
-
-
-
-                          
-                            <!--QRcode popup modal -->
-                            <div class="modal fade" id="pointitqrModal" tabindex="-1"
-                                role="dialog" aria-labelledby="pointitqrModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content">
-                                        <!-- Modal heading -->
-                                        <div class="modal-header">
-                                        <div> Scan your QR code to TOPUp</div>
-                                            <button type="button" class="close"
-                                                data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">
-                                                    ×
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <!-- Modal body with image -->
-                                        <div class="modal-body m-auto d-flex aligns-items-center">
-                                            <div class="my-auto ">
-                                                <img src="images/pointit-qr.png"
-                                                                alt="pointitqr" class="img-fluid "  />
-                                            </div>
-                                        </div>
-                                    </div>
+                <div class="container bg-white mt-5 mb-5">
+                    <div class="">
+                        <div class="row d-flex flex-column align-items-center text-center">
+                            <div class="col-md-8">
+                                <div class=" p-3 mt-2">
+                                    <img class=" "  width="150px" src="images/free.png">
+                                    
+                                    <span> </span>
                                 </div>
                             </div>
-                            <!-- QR topup -->
+                        </div>
 
-                    
-                    
+                        <div class="row d-flex flex-column align-items-center text-center">
+                            <div class="col-md-8">
+                                <div class="p-3">
+                                    
+                                    <!-- <h4 class="text-left mb-3">Company Profile</h4> -->
+                                    
+                                    <div class="row mt-2">
+                                                                                
+                                            <div class="col-md-6 text-left mb-3">
+                                                <div>株式会社ABC Mart</div> 
+                                                <div>Since: 2023/01/20</div> 
+                                                <div>Mail: abc@example.com</div> 
+                                                <div>Phone No: XXX-XXXXXXXXX</div> 
+                                                <div>Fax: XXX-XXXX-XXXX</div>  
+                                                <div>XXX-XXXX</div>
+                                                <div>Tokyo, itabashi-ku, itabashi</div>
+                                            </div>
 
+                                            <div class="col-md-6">
+                                                <p>
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                                                </p>
+                                                
+                                            </div>
+
+                                            <div class="col-12">
+                                                <p>
+                                                    Detail about point system Spend 500 Yen for 1 point/every visit get a point
+                                                    </p>
+                                            </div>
+                                    </div>
+                                        
+                                                                    
+
+                                    <div class="row mt-3">
+                                        <div class="d-flex justify-content-start">
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Click to visit company website"><i class="fas fa-globe fa-lg me-3"></i></a>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Click to visit company facebook"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Click to visit company instagram"><i class="fab fa-instagram fa-lg me-3"></i></a>
+                                            <a href="#" data-toggle="tooltip" data-placement="top" title="Click to visit company ticktok"><i class="fab fa-tiktok fa-lg me-3"></i></a>  
+                                        </div>
+                                                                
+                                    </div>
+                                    
+                                    <div class="mt-5 text-center"><button class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm btn-dash-pointit" type="button"><i class="fas fa-edit"></i>Edit Profile</button></div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -452,6 +409,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+
+
+
+    <!-- tooltip -->
+
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+        </script>
 </body>
 
 </html>
