@@ -79,22 +79,9 @@
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
+                <a class="nav-link" href="pointcardlist.html">
                     <i class="fas fa-th"></i>
-                    <span>Point Cards</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Select Your Card:</h6>
-                        <a class="collapse-item" href="pointcardlist.html">List All Cards</a>
-                        <a class="collapse-item" href="pointdetail.html">A Hala</a>
-                        <a class="collapse-item" href="#">B Resturant</a>
-                        <a class="collapse-item" href="#">C Botique</a>
-                        <a class="collapse-item" href="#">D Newa</a>
-                    </div>
-                </div>
+                    <span>PointCards</span></a>
             </li>
 
 
@@ -128,7 +115,7 @@
             <hr class="sidebar-divider">
 
             <!-- Nav Item - Point Management -->
-            <li class="nav-item  active">
+            <li class="nav-item ">
                 <a class="nav-link collapsed" href="pointmanagement.html" data-toggle="collapse" data-target="#collapseManagement"
                     aria-expanded="true" aria-controls="collapseManagement">
                     <i class="fas fa-tasks"></i>
@@ -137,9 +124,6 @@
                 <div id="collapseManagement" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Profile</h6>
-                        <a class="collapse-item" href="qrcodereader.html">Edit</a>
-                        <a class="collapse-item" href="listusers.html">View</a>
                         <h6 class="collapse-header">Business</h6>
                         <a class="collapse-item" href="businessdetailcreate.html">Create</a>
                         <a class="collapse-item" href="businessdetailedit.html">Edit</a>
@@ -302,9 +286,23 @@
                                 </div>
                                 <div class="row mt-2">
                                     <div class="col-md-4"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
-                                    <div class="col-md-4"><label class="labels">Middle</label><input type="text" class="form-control" value="" placeholder="Middle"></div>
                                     <div class="col-md-4"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
                                     
+                                    <div class="col-md-4">
+                                        <label class="labels">Gender</label>
+                                        <br/>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male" checked>
+                                            <label class="form-check-label" for="inlineRadio1">M</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female">
+                                            <label class="form-check-label" for="inlineRadio2">F</label>
+                                        </div>
+
+                                    </div>
+                                    
+
                                 </div>
                                 <div class="row mt-3">
                                     <div class="col-md-6"><label class="labels">Date of Birth</label><input type="date" class="form-control" placeholder="" value=""></div>

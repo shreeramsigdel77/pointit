@@ -80,22 +80,9 @@
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
+                <a class="nav-link" href="pointcardlist.html">
                     <i class="fas fa-th"></i>
-                    <span>Point Cards</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Select Your Card:</h6>
-                        <a class="collapse-item" href="pointcardlist.html">List All Cards</a>
-                        <a class="collapse-item" href="pointdetail.html">A Hala</a>
-                        <a class="collapse-item" href="#">B Resturant</a>
-                        <a class="collapse-item" href="#">C Botique</a>
-                        <a class="collapse-item" href="#">D Newa</a>
-                    </div>
-                </div>
+                    <span>PointCards</span></a>
             </li>
 
 
@@ -138,9 +125,7 @@
                 <div id="collapseManagement" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Profile</h6>
-                        <a class="collapse-item" href="cameraupload.html">Edit</a>
-                        <a class="collapse-item" href="listusers.html">View</a>
+                        
                         <h6 class="collapse-header">Business</h6>
                         <a class="collapse-item" href="businessdetailcreate.html">Create</a>
                         <a class="collapse-item" href="businessdetailedit.html">Edit</a>
@@ -281,14 +266,14 @@
                     <!-- Content Row -->
                     <div class="row">
 
-                        <!-- Points (Monthly) Card  -->
+                        <!-- Total Monthly Users Card  -->
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-danger shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
-                                                Points (Monthly)</div>
+                                                Total Monthly Users</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">4000</div>
                                         </div>
                                         <div class="col-auto">
@@ -306,7 +291,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Points (Annual)</div>
+                                                Referals </div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">80000</div>
                                         </div>
                                         <div class="col-auto">
@@ -318,7 +303,7 @@
                         </div>
 
                         <!-- Rewards (Give/Take/Used) Card  -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <!-- <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-info shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -336,10 +321,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                         <!-- Can convertinto /Pending Rewards Card -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <!-- <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-warning shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
@@ -354,13 +339,47 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
 
                     <!-- Content Row -->
 
-                    <div class="row">
+                   
+                        <div>Users List</div>
+                        
+                          <table class="table" >
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Points from Sales</th>
+                                <th scope="col">Referal Point</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>100</td>
+                                <td>50</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>20</td>
+                                <td>5</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>1000</td>
+                                <td>10</td>
+                              </tr>
+                            </tbody>
+                          </table>
 
+
+                    <div class="row">
                         <!-- Area Chart -->
                         <div class="col-xl-8 col-lg-7">
                             <div class="card shadow mb-4">

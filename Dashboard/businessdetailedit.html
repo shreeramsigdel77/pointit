@@ -79,22 +79,9 @@
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
+                <a class="nav-link" href="pointcardlist.html">
                     <i class="fas fa-th"></i>
-                    <span>Point Cards</span>
-                </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Select Your Card:</h6>
-                        <a class="collapse-item" href="pointcardlist.html">List All Cards</a>
-                        <a class="collapse-item" href="pointdetail.html">A Hala</a>
-                        <a class="collapse-item" href="#">B Resturant</a>
-                        <a class="collapse-item" href="#">C Botique</a>
-                        <a class="collapse-item" href="#">D Newa</a>
-                    </div>
-                </div>
+                    <span>PointCards</span></a>
             </li>
 
 
@@ -128,7 +115,7 @@
             <hr class="sidebar-divider">
 
             <!-- Nav Item - Point Management -->
-            <li class="nav-item  active">
+            <li class="nav-item ">
                 <a class="nav-link collapsed" href="pointmanagement.html" data-toggle="collapse" data-target="#collapseManagement"
                     aria-expanded="true" aria-controls="collapseManagement">
                     <i class="fas fa-tasks"></i>
@@ -137,9 +124,6 @@
                 <div id="collapseManagement" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Profile</h6>
-                        <a class="collapse-item" href="qrcodereader.html">Edit</a>
-                        <a class="collapse-item" href="listusers.html">View</a>
                         <h6 class="collapse-header">Business</h6>
                         <a class="collapse-item" href="businessdetailcreate.html">Create</a>
                         <a class="collapse-item" href="businessdetailedit.html">Edit</a>
@@ -311,7 +295,14 @@
 
                                     <div class="col-md-6"><label class="labels">Phone Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
                                     <div class="col-md-6"><label class="labels">Fax number</label><input type="text" class="form-control" placeholder="enter Mobile number" value=""></div>
-                                    
+                                    <div class="col-12 mt-2">
+                                        <select class="form-select" aria-label="Business Category">
+                                            <option selected>Open this select Business Category</option>
+                                            <option value="1">Halal</option>
+                                            <option value="2">Resturant</option>
+                                            <option value="3">XYZ</option>
+                                          </select>
+                                    </div>
                                 </div>
 
                                 <div class="row mt-3">
@@ -329,8 +320,14 @@
                                     <div class="col-md-12"><label class="labels">Instagram</label><input type="text" class="form-control" placeholder="Insert your company Instagram link" value=""></div>
                                     <div class="col-md-12"><label class="labels">Ticktok</label><input type="text" class="form-control" placeholder="Insert your company Ticktok link" value=""></div>
                                     
-                               
-                               
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <label for="businesstextarea" class="form-label">Business Description</label>
+                                        <textarea class="form-control" id="businesstextarea" rows="3"></textarea>
+                                      </div>
+
                                 </div>
                                 
 
